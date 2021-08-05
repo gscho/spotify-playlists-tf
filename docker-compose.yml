@@ -1,0 +1,6 @@
+version: '3'
+services:
+  auth_proxy:
+    image: ghcr.io/conradludgate/spotify-auth-proxy
+    ports:
+    - "27228:27228"
